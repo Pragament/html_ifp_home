@@ -32,9 +32,9 @@ button {
 }
 
 .shell {
-  width: min(1120px, calc(100% - 32px));
+  width: min(1280px, calc(100% - 16px));
   margin: 0 auto;
-  padding: 0px 0;
+  padding: 6px 0;
 }
 
 .topbar {
@@ -122,34 +122,35 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 12px;
-  margin: 4px 0;
+  gap: 6px;
+  margin: 4px 0 6px;
 }
 
 .controls-label {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.78rem;
   font-weight: 700;
 }
 
 .segmented {
   display: inline-grid;
-  grid-template-columns: repeat(4, minmax(72px, 1fr));
-  gap: 4px;
-  padding: 4px;
+  grid-template-columns: repeat(4, minmax(54px, 1fr));
+  gap: 2px;
+  padding: 2px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 6px;
   background: var(--panel);
 }
 
 .segment {
-  min-height: 38px;
-  padding: 0 14px;
+  min-height: 28px;
+  padding: 0 8px;
   border: 0;
-  border-radius: 6px;
+  border-radius: 4px;
   background: transparent;
   color: var(--muted);
   cursor: pointer;
+  font-size: 0.82rem;
 }
 
 .segment:hover,
@@ -171,18 +172,18 @@ h1 {
 
 .app-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(112px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
+  gap: 6px;
 }
 
 .app-card {
   display: grid;
   justify-items: center;
-  gap: 10px;
-  min-height: 118px;
-  padding: 16px 12px;
+  gap: 6px;
+  min-height: 78px;
+  padding: 9px 6px;
   border: 1px solid var(--line);
-  border-radius: 8px;
+  border-radius: 6px;
   background: var(--panel);
   color: var(--text);
   text-align: center;
@@ -196,13 +197,13 @@ h1 {
 
 .app-icon {
   display: grid;
-  width: 44px;
-  height: 44px;
+  width: 32px;
+  height: 32px;
   place-items: center;
-  border-radius: 8px;
+  border-radius: 7px;
   background: var(--accent);
   color: #ffffff;
-  font-size: 1.15rem;
+  font-size: 0.9rem;
   font-weight: 800;
 }
 
@@ -210,8 +211,8 @@ h1 {
   margin: 0;
   max-width: 100%;
   overflow-wrap: anywhere;
-  font-size: 0.95rem;
-  line-height: 1.25;
+  font-size: 0.78rem;
+  line-height: 1.15;
   letter-spacing: 0;
 }
 
@@ -232,8 +233,8 @@ h1 {
 
 @media (max-width: 480px) {
   .shell {
-    width: min(100% - 20px, 1120px);
-    padding: 20px 0;
+    width: min(100% - 10px, 1280px);
+    padding: 5px 0;
   }
 
   .topbar {
@@ -243,6 +244,11 @@ h1 {
   .segmented {
     width: 100%;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .app-grid {
+    grid-template-columns: repeat(auto-fill, minmax(68px, 1fr));
+    gap: 5px;
   }
 }
 

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IFP Home</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="topbar" aria-labelledby="page-title">
+        <details class="topbar-details">
+          <summary class="topbar-summary">
+            <div>
+              <p class="eyebrow">Current URL</p>
+              <h1 id="page-title">IFP Home</h1>
+            </div>
+          </summary>
+          <output id="current-url" class="current-url" aria-live="polite"></output>
+        </details>
+      </section>
+
+      <section class="controls" aria-label="App size filter">
+        <span class="controls-label">Filter size</span>
+        <div class="segmented" role="radiogroup" aria-label="Size">
+          <button class="segment is-active" type="button" data-filter="all" role="radio" aria-checked="true">All</button>
+          <button class="segment" type="button" data-filter="small" role="radio" aria-checked="false">Small</button>
+          <button class="segment" type="button" data-filter="medium" role="radio" aria-checked="false">Medium</button>
+          <button class="segment" type="button" data-filter="large" role="radio" aria-checked="false">Large</button>
+        </div>
+      </section>
+
+      <section>
+        <div id="app-grid" class="app-grid" aria-live="polite"></div>
+        <p id="empty-state" class="empty-state" hidden>No apps match this size.</p>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

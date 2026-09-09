@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "id": "edulabs",
+      "name": "EduLabs",
+      "description": "Learning lab application",
+      "url": "https://edulabs.technikh.com/",
+      "sizes": ["medium", "large"]
+    }
+  ]
+}

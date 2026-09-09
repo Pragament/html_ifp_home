@@ -6,6 +6,13 @@
       "description": "Learning lab application",
       "url": "https://edulabs.technikh.com/",
       "sizes": ["medium", "large"]
+    },
+    {
+      "id": "ifp-english",
+      "name": "English",
+      "description": "English learning application",
+      "url": "https://ifp-english.technikh.com/",
+      "sizes": ["small"]
     }
   ]
 }

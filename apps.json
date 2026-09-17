@@ -13,6 +13,41 @@
       "description": "English learning application",
       "url": "https://ifp-english.technikh.com/",
       "sizes": ["small"]
+    },
+    {
+      "id": "math-expression",
+      "name": "Math Expression",
+      "description": "Interactive math expression learning module",
+      "url": "https://rachel.worldpossible.org/mods/en-math_expression/index.html",
+      "sizes": ["small", "medium", "large"]
+    },
+    {
+      "id": "mathoverflow",
+      "name": "MathOverflow",
+      "description": "Mathematics question and answer archive",
+      "url": "https://rachel.worldpossible.org/kiwix/content/mathoverflow.net_en_all_2023-01/",
+      "sizes": ["small", "medium", "large"]
+    },
+    {
+      "id": "phet-simulations",
+      "name": "PhET Simulations",
+      "description": "Interactive math and science simulations",
+      "url": "https://rachel.worldpossible.org/mods/en-phet-static/en/simulations/category/new.html",
+      "sizes": ["small", "medium", "large"]
+    },
+    {
+      "id": "mathantics",
+      "name": "Math Antics",
+      "description": "Math video lessons",
+      "url": "https://youtube.com/@mathantics",
+      "sizes": ["small", "medium", "large"]
+    },
+    {
+      "id": "theory-of-physics",
+      "name": "Theory of Physics",
+      "description": "Physics video lessons",
+      "url": "https://youtube.com/@theory_of_physics",
+      "sizes": ["small", "medium", "large"]
     }
   ]
 }

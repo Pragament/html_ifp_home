@@ -48,6 +48,146 @@
       "description": "Physics video lessons",
       "url": "https://youtube.com/@theory_of_physics",
       "sizes": ["small", "medium", "large"]
+    },
+    {
+      "id": "algebra2go-prealgebra",
+      "name": "Algebra2Go Prealgebra",
+      "description": "Prealgebra resources with video lectures, worksheets, and practice problems",
+      "url": "https://rachel.worldpossible.org/mods/en-algebra2go/prealgebra/index.html",
+      "sizes": ["medium", "large"]
+    },
+    {
+      "id": "blockly-games",
+      "name": "Blockly Games",
+      "description": "Programming games for future programmers",
+      "url": "https://rachel.worldpossible.org/mods/en-blockly-games/blockly-games/en/index.html",
+      "sizes": ["small", "medium"]
+    },
+    {
+      "id": "boundless-resources",
+      "name": "Boundless Resources",
+      "description": "Open educational resources across multiple subjects",
+      "url": "https://rachel.worldpossible.org/mods/en-boundless-static/www.boundless.com/subjects/index.html",
+      "sizes": ["large"]
+    },
+    {
+      "id": "ck12-textbooks",
+      "name": "CK-12 Textbooks",
+      "description": "High-quality STEM textbooks from CK-12",
+      "url": "https://rachel.worldpossible.org/cgi/sample_wrap_window.php?moddir=en-ck12",
+      "sizes": ["large"]
+    },
+    {
+      "id": "code-monster",
+      "name": "Code Monster",
+      "description": "Interactive JavaScript programming tutorial for kids and beginners",
+      "url": "https://rachel.worldpossible.org/mods/en-code_monster/content/index.html",
+      "sizes": ["small", "medium"]
+    },
+    {
+      "id": "rachel-courses",
+      "name": "College Credit Courses",
+      "description": "College credit courses from MIT including Computer Science and Calculus",
+      "url": "https://rachel.worldpossible.org/mods/en-rachelcourses/index.html",
+      "sizes": ["medium", "large"]
+    },
+    {
+      "id": "core-knowledge",
+      "name": "Core Knowledge",
+      "description": "Content-rich curriculum materials for preschool through grade 8",
+      "url": "https://rachel.worldpossible.org/mods/en-coreknowledge/CoreKnowledge.html",
+      "sizes": ["large"]
+    },
+    {
+      "id": "ole-nepal",
+      "name": "OLE Nepal",
+      "description": "E-Paath digital learning materials with interactive modules for grades 2-8",
+      "url": "https://rachel.worldpossible.org/mods/en-ole_nepal/index.html",
+      "sizes": ["medium", "large"]
+    },
+    {
+      "id": "empatico",
+      "name": "Empatico",
+      "description": "Empathy development activities and virtual exchanges for students",
+      "url": "https://rachel.worldpossible.org/mods/en-empatico/content/index.html",
+      "sizes": ["small", "medium"]
+    },
+    {
+      "id": "gcf-global",
+      "name": "GCF Global Learning",
+      "description": "Free online courses covering computers, internet skills, Microsoft Office, and more",
+      "url": "https://rachel.worldpossible.org/mods/en-GCF2021/data/index.html",
+      "sizes": ["medium", "large"]
+    },
+    {
+      "id": "art-express-yourself",
+      "name": "Art: Express Yourself",
+      "description": "Creative art tutorials including how to draw faces step by step",
+      "url": "https://rachel.worldpossible.org/kiwix/content/keylearning_en_art-express-yourself_2023-01/home.html#1",
+      "sizes": ["small"]
+    },
+    {
+      "id": "kaos-health-medicine",
+      "name": "Khan Academy: Health & Medicine",
+      "description": "Videos on human anatomy, physiology, and health sciences",
+      "url": "https://rachel.worldpossible.org/mods/en-kaos/science/health-and-medicine/index.html",
+      "sizes": ["medium", "large"]
+    },
+    {
+      "id": "kaos-index",
+      "name": "Khan Academy on a Stick",
+      "description": "Complete Khan Academy video library covering math, science, and more",
+      "url": "https://rachel.worldpossible.org/mods/en-kaos/index.html",
+      "sizes": ["large"]
+    },
+    {
+      "id": "saylor-academy",
+      "name": "Saylor Academy",
+      "description": "Free online courses across art history, biology, business, chemistry, and more",
+      "url": "https://rachel.worldpossible.org/mods/en-learnsaylor/index.html",
+      "sizes": ["large"]
+    },
+    {
+      "id": "openstax-cnx",
+      "name": "OpenStax CNX College Textbooks",
+      "description": "Open college textbooks covering business, humanities, mathematics, science, and social science",
+      "url": "https://rachel.worldpossible.org/mods/en-openstax/OpenStax.html",
+      "sizes": ["large"]
+    },
+    {
+      "id": "rasyti-typing",
+      "name": "Rašyti Touch Typing Trainer",
+      "description": "Interactive touch typing trainer with keyboard layout practice",
+      "url": "https://rachel.worldpossible.org/mods/en-rasyti_typing/content/index.html#qwerty-us",
+      "sizes": ["small"]
+    },
+    {
+      "id": "siyavula",
+      "name": "Siyavula",
+      "description": "Open mathematics and physical science textbooks for grades 10-12",
+      "url": "https://rachel.worldpossible.org/mods/en-siyavula/index.html",
+      "sizes": ["medium", "large"]
+    },
+    {
+      "id": "understanding-algebra",
+      "name": "Understanding Algebra",
+      "description": "Online algebra textbook covering introductory algebra topics",
+      "url": "https://rachel.worldpossible.org/mods/en-understanding_algebra/index.html",
+      "sizes": ["small", "medium"]
+    },
+    {
+      "id": "wikipedia-schools-math",
+      "name": "Wikipedia for Schools: Mathematics",
+      "description": "Child-friendly mathematics articles from Wikipedia for schools",
+      "url": "https://rachel.worldpossible.org/mods/en-wikipedia_for_schools-static/wp/index/subject.Mathematics.htm",
+      "sizes": ["small", "medium"]
+    },
+    {
+      "id": "worldmap",
+      "name": "World Map",
+      "description": "Interactive world map powered by Leaflet with geographic data",
+      "url": "https://rachel.worldpossible.org/mods/en-worldmap-10/map.html",
+      "sizes": ["small"]
     }
   ]
 }
